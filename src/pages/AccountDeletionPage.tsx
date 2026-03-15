@@ -1,8 +1,12 @@
+import { PageNav } from '../components/PageNav';
+
 const supportEmail = import.meta.env.VITE_SUPPORT_EMAIL as string | undefined;
 
 export function AccountDeletionPage() {
   return (
     <main className="page-shell">
+      <PageNav />
+
       <section className="hero-card">
         <p className="eyebrow">Fin-9</p>
         <h1>Exclusao de conta e remocao de dados</h1>
